@@ -24,7 +24,7 @@ class _CreatePromptScreenState extends State<CreatePromptScreen> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text("Generate Images🚀"),
+        title: const Text("Text To Image 🚀"),
       ),
       body: BlocConsumer<PromptBloc, PromptState>(
         bloc: promptBloc,

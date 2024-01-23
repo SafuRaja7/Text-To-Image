@@ -7,8 +7,7 @@ class PromptRepo {
     try {
       String url = 'https://api.vyro.ai/v1/imagine/api/generations';
       Map<String, dynamic> headers = {
-        'Authorization':
-            'Bearer vk-YpKWagRaE4XosEQKRoasD23HAPTLWuzWq6J7ylD4pWCN1',
+        'Authorization': 'Bearer vk-YOUR-API-Key',
       };
       Map<String, dynamic> payload = {
         'prompt': prompt,
